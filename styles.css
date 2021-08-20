@@ -1,36 +1,77 @@
 body {
+    
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+
+}
+
+.leftheader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
     color: black;
     font-weight: 400;
     font-size: 14px;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    padding: 6px;
-    box-sizing: border-box;
-}
 
-.box {
-    font-family: 'Arial', sans-serif;
-    font-size: 13px;
-    display: flex;
-    float: right;
-    padding-left: 32px;
-}
-
-.leftheader {
-    display: inline-block;
-    padding: 5px;
-    margin: 5px;
+.lefttext {
+    padding: 10px;
 }
 
 .rightheader {
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 5px;
-    margin: 5px;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 50%;
+}
+
+.righttext {
+    padding-left: 10px;
+}
+
+.useritems {
+    padding-right: 10px;
+    justify-content: left;
+}
+
+.usericons {
+    display: flex;
+    padding-right: 10px;
+}
+
+#apps {
+    padding: 10px;
+}
+
+#user {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
 }
 
 a:link { text-decoration: none; 
