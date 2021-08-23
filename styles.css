@@ -16,9 +16,17 @@ nav {
     align-items: center;
 }
 
-a {
+a:link { text-decoration: none; 
+    color: black;
+    }
 
-}
+a:visited { text-decoration: none;
+     color: black;
+    }
+
+a:hover { text-decoration: underline; }
+
+a:active { text-decoration: none; }
 
 .leftheader {
     display: flex;
@@ -60,7 +68,6 @@ a {
 
 .usericons {
     display: flex;
-    padding-right: 10px;
 }
 
 #apps {
@@ -74,14 +81,17 @@ a {
     padding: 10px;
 }
 
-a:link { text-decoration: none; 
-        color: black;
-        }
+.googlestamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55vh;
+}
 
-a:visited { text-decoration: none;
-         color: black;
-        }
-
-a:hover { text-decoration: underline; }
-
-a:active { text-decoration: none; }
+.middle {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+    display: block;
+}
